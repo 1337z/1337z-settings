@@ -1,6 +1,6 @@
 {
   "name": "1337z-settings",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "",
   "repository": "https://github.com/probot/settings.git",
   "main": "index.js",
