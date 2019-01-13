@@ -1,6 +1,6 @@
 repository:
   name: 1337z-settings
-  description: ":wrench: Pull Requests for GitHub repository settings"
+  description: ":wrench: 1337z repository settings manager"
   homepage: https://github.com/1337z/1337z-settings
   topics: probot-app, github-app, bot
   has_wiki: false
