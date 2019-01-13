@@ -14,6 +14,9 @@ module.exports = (robot, _, Settings = require('./lib/settings')) => {
     })
 
     if (defaultBranch && settingsModified) {
+      context.github.repos.createCommitComment(context.repo({sha: payload.head_commit.id, body: "I have updated the repository settings!"}), res => {
+        console.log(res)
+      })
       return Settings.sync(context.github, context.repo(), config)
     }
   })
