@@ -1,6 +1,6 @@
 {
   "name": "probot-settings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "repository": "https://github.com/probot/settings.git",
   "main": "index.js",
